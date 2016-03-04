@@ -31,7 +31,6 @@ public class MsgPackBundle implements Bundle {
 
     @Override
     public void run(Environment environment) {
-        environment.jersey().register(new MsgPackMessageBodyWriter());
-        environment.jersey().register(new MsgPackMessageBodyReader());
+        environment.jersey().register(new MsgPackMessageBodyProvider<>());
     }
 }

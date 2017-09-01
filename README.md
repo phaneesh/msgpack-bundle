@@ -4,8 +4,8 @@ This bundle adds MsgPack support for dropwizard.
 This bundle compiles only on Java 8.
  
 ## Dependencies
-* MsgPack 0.8.6
-* MsgPack Jackson 0.8.6  
+* MsgPack 0.8.13
+* MsgPack Jackson 0.8.13  
 
 ## Usage
 The bundle adds MsgPack support based on content negotiation. 
@@ -34,7 +34,7 @@ Use the following maven dependency:
 <dependency>
     <groupId>io.dropwizard</groupId>
     <artifactId>dropwizard-msgpack</artifactId>
-    <version>1.0.0-rc2-1</version>
+    <version>1.1.4</version>
 </dependency>
 ```
 
